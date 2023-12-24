@@ -1,0 +1,14 @@
+fn subtract(a: i32, b: i32) -> i32 {
+    a - b
+}
+
+fn main() {
+    let sum = 2 + 2; // Sum
+    let sub = 10 - 5; // Subtract
+    let division = 10 / 2; // Divide
+    let mult = 5 * 5; // Multiply
+
+    let answer = subtract(sum, sub)
+
+    let rem = 6 % 3; // Remainder division - returns the remainder
+}
