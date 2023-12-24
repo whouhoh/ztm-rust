@@ -8,4 +8,20 @@
 // * Use a function to display your last name
 // * Use the println macro to display messages to the terminal
 
-fn main() {}
+
+// * Use a function to display your first name
+fn first_name() {
+    println!("Example"); // You want to terminate the line with a semi colon 
+}
+
+
+// * Use a function to display your last name
+fn last_name() {
+    println!("Name");
+}
+
+
+fn main() {
+    first_name();
+    last_name();
+}
